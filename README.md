@@ -16,4 +16,8 @@ If FluentValidation is used client might be expecting errors message only in one
 ##  Solution
 Reformat binding errors messages same format as FluentValidation error messages.
 
+### Final Output
+>   Model Binding Errors
+
+![alt Fluent Validation formatted binding errors response](https://github.com/nhancers/ModelBindingFluentValidation/blob/master/screenshots/ModelBindingErrors_WithFluentValidationFormat.png)
  
