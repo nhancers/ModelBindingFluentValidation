@@ -16,6 +16,24 @@ If FluentValidation is used client might be expecting errors message only in one
 ##  Solution
 Reformat binding errors messages same format as FluentValidation error messages.
 
+##  Running Locally
+1. Clone repository
+2. RUN ```dotnet build```
+3. RUN ```dotnet run```
+
+>  Sample curl
+
+```
+curl --location --request POST 'http://localhost:5000/api/Person' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "DateOfBirth":"2018-09-09"
+}'
+```
+
+
+
+
 ### Final Output
 >   Model Binding Errors
 
